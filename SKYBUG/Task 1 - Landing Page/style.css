@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html {
+    height: 100%;
+    width: 100%;
+    /* background-image: url(pexels-muffin-creatives-2468773.jpg); */
+}
+body
+{
+    height: 100%;
+    width: 100%;
+     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pexels-muffin-creatives-2468773.jpg);
+     background-size: cover;
+     background-color: #ccccccf1;
+     background-blend-mode: darken;
+}
+nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     height: 20%;
+     width: 100%;
+     padding: 3%;
+}
+.bar
+{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-evenly;
+     gap: 2rem;
+     font-size: x-large;
+     cursor: pointer;
+}
+ul{
+     color: white;
+}
+section
+{
+    height: 80%;
+    width: 100%; 
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 2rem;
+
+}
+.reg-btn
+{
+     height: 2rem;
+     width: 6rem;
+     background-color: tomato;
+     border-radius: 0.5rem;
+     cursor: pointer;
+}
+.book
+{
+     height: 60px;
+     width: 200px;
+     background-color: tomato;
+     cursor: pointer;
+     font-size: larger;
+     border-radius: 10px;
+}
+.logo
+{
+     font-size: xx-large;
+     
+}
+h1{
+     font-size: 60px;
+}

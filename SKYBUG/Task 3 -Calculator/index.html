@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Used Tailwind CSS framework for this task -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="bd h-screen bg-gray-100 box-border flex justify-center items-center"
+  >
+    <section
+      class="calculator w-[300px] h-[530px] shadow-2xl rounded-xl bg-[#22252D] overflow-hidden"
+    >
+      <form action="">
+        <input
+          type="text"
+          class="screen w-full h-[150px] bg-black text-white text-right p-8 text-3xl pointer-events-none"
+        />
+      </form>
+      <div class="buttons m-2">
+        <div class="btn1">
+          <button
+            type="button "
+            class="btn btn_yellow bg-amber-500 font-bold"
+            data-num="*"
+          >
+            *
+          </button>
+          <button
+            type="button"
+            class="btn btn_yellow bg-amber-500 font-bold"
+            data-num="/"
+          >
+            /
+          </button>
+          <button
+            type="button"
+            class="btn btn_yellow bg-amber-500 font-bold"
+            data-num="-"
+          >
+            -
+          </button>
+          <button
+            type="button"
+            class="btn btn_yellow bg-amber-500 font-bold"
+            data-num="+"
+          >
+            +
+          </button>
+        </div>
+        <div class="btn2">
+          <button
+            type="button"
+            class="bg-slate-50 btn btn_grey font-bold"
+            data-num="9"
+          >
+            9
+          </button>
+          <button
+            type="button"
+            class="bg-slate-50 btn btn_grey font-bold"
+            data-num="7"
+          >
+            7
+          </button>
+          <button
+            type="button"
+            class="bg-slate-50 btn btn_grey font-bold"
+            data-num="8"
+          >
+            8
+          </button>
+          <button
+            type="button"
+            class="bg-slate-50 btn btn_grey font-bold"
+            data-num="6"
+          >
+            6
+          </button>
+        </div>
+        <div class="btn3">
+          <button
+            type="button"
+            class="bg-slate-50 btn btn_grey font-bold"
+            data-num="5"
+          >
+            5
+          </button>
+          <button
+            type="button"
+            class="bg-slate-50 btn btn_grey font-bold"
+            data-num="4"
+          >
+            4
+          </button>
+          <button
+            type="button"
+            class="bg-slate-50 btn btn_grey font-bold"
+            data-num="3"
+          >
+            3
+          </button>
+          <button
+            type="button"
+            class="bg-slate-50 btn btn_grey font-bold"
+            data-num="2"
+          >
+            2
+          </button>
+        </div>
+        <div class="btn3">
+          <button
+            type="button"
+            class="bg-slate-50 btn btn_grey font-bold"
+            data-num="1"
+          >
+            1
+          </button>
+          <button
+            type="button"
+            class="bg-slate-50 btn btn_grey font-bold"
+            data-num="0"
+          >
+            0
+          </button>
+          <button
+            type="button"
+            class="bg-slate-50 btn btn_grey font-bold"
+            data-num="."
+          >
+            .
+          </button>
+          <button type="button" class="btn_equal bg-green-600 font-semibold">
+            =
+          </button>
+        </div>
+        <button type="button" class="btn_clear bg-red-600 font-semibold">
+          C
+        </button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
